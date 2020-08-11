@@ -1,0 +1,15 @@
+{
+  "name": "chat_app_node_socket",
+  "version": "1.0.0",
+  "description": "A real time chat app using sockets and node.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "RGALA98",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.3.0"
+  }
+}

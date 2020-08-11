@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Realtime Chatapp using node and socket</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <img class="logo" src="./assets/logo.png" alt="logo" />
+      <h1>Welcome to RocketChat</h1>
+    </nav>
+
+    <div class="container">
+      <!-- <div class="message right">Rahul: Hello World</div>
+      <div class="message center">Joined the chat</div>
+      <div class="message left">Bot: Hello Rahul</div> -->
+    </div>
+
+    <div class="send">
+      <form action="#" class="send-container" id="send-message">
+        <input
+          type="text"
+          name="messageInput"
+          class="messageInput"
+          id="messageInput"
+        />
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </div>
+  </body>
+</html>
